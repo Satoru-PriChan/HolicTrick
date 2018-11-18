@@ -1,0 +1,9 @@
+<!-- templates/post_detail.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<dev class="post-entry">
+    <h2>{{ object.title }}</h2>
+    <p>{{ object.body }}</p>
+</dev>
+{% endblock content %}
